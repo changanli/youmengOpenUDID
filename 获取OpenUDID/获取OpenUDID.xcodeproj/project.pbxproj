@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0483719F1D77EFB7003D3DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483719E1D77EFB7003D3DF5 /* main.m */; };
+		048371A21D77EFB7003D3DF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048371A11D77EFB7003D3DF5 /* AppDelegate.m */; };
+		048371A51D77EFB7003D3DF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048371A41D77EFB7003D3DF5 /* ViewController.m */; };
+		048371A81D77EFB7003D3DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048371A61D77EFB7003D3DF5 /* Main.storyboard */; };
+		048371AA1D77EFB7003D3DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048371A91D77EFB7003D3DF5 /* Assets.xcassets */; };
+		048371AD1D77EFB7003D3DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048371AB1D77EFB7003D3DF5 /* LaunchScreen.storyboard */; };
+		048371B81D77EFB7003D3DF5 /* __OpenUDIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048371B71D77EFB7003D3DF5 /* __OpenUDIDTests.m */; };
+		048371C31D77EFB7003D3DF5 /* __OpenUDIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048371C21D77EFB7003D3DF5 /* __OpenUDIDUITests.m */; };
+		048371D21D77EFC5003D3DF5 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 048371D11D77EFC5003D3DF5 /* OpenUDID.m */; };
+		048371D51D77F3EB003D3DF5 /* GETUMENG.m in Sources */ = {isa = PBXBuildFile; fileRef = 048371D41D77F3EB003D3DF5 /* GETUMENG.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048371B41D77EFB7003D3DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048371921D77EFB7003D3DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048371991D77EFB7003D3DF5;
+			remoteInfo = "获取OpenUDID";
+		};
+		048371BF1D77EFB7003D3DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048371921D77EFB7003D3DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048371991D77EFB7003D3DF5;
+			remoteInfo = "获取OpenUDID";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0483719A1D77EFB7003D3DF5 /* 获取OpenUDID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "获取OpenUDID.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0483719E1D77EFB7003D3DF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048371A01D77EFB7003D3DF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048371A11D77EFB7003D3DF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048371A31D77EFB7003D3DF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		048371A41D77EFB7003D3DF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		048371A71D77EFB7003D3DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048371A91D77EFB7003D3DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048371AC1D77EFB7003D3DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048371AE1D77EFB7003D3DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048371B31D77EFB7003D3DF5 /* 获取OpenUDIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "获取OpenUDIDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048371B71D77EFB7003D3DF5 /* __OpenUDIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __OpenUDIDTests.m; sourceTree = "<group>"; };
+		048371B91D77EFB7003D3DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048371BE1D77EFB7003D3DF5 /* 获取OpenUDIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "获取OpenUDIDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048371C21D77EFB7003D3DF5 /* __OpenUDIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __OpenUDIDUITests.m; sourceTree = "<group>"; };
+		048371C41D77EFB7003D3DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048371D01D77EFC5003D3DF5 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		048371D11D77EFC5003D3DF5 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		048371D31D77F3EB003D3DF5 /* GETUMENG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GETUMENG.h; sourceTree = "<group>"; };
+		048371D41D77F3EB003D3DF5 /* GETUMENG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GETUMENG.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048371971D77EFB7003D3DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048371B01D77EFB7003D3DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048371BB1D77EFB7003D3DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048371911D77EFB7003D3DF5 = {
+			isa = PBXGroup;
+			children = (
+				0483719C1D77EFB7003D3DF5 /* 获取OpenUDID */,
+				048371B61D77EFB7003D3DF5 /* 获取OpenUDIDTests */,
+				048371C11D77EFB7003D3DF5 /* 获取OpenUDIDUITests */,
+				0483719B1D77EFB7003D3DF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0483719B1D77EFB7003D3DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0483719A1D77EFB7003D3DF5 /* 获取OpenUDID.app */,
+				048371B31D77EFB7003D3DF5 /* 获取OpenUDIDTests.xctest */,
+				048371BE1D77EFB7003D3DF5 /* 获取OpenUDIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0483719C1D77EFB7003D3DF5 /* 获取OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				048371D01D77EFC5003D3DF5 /* OpenUDID.h */,
+				048371D11D77EFC5003D3DF5 /* OpenUDID.m */,
+				048371A01D77EFB7003D3DF5 /* AppDelegate.h */,
+				048371A11D77EFB7003D3DF5 /* AppDelegate.m */,
+				048371A31D77EFB7003D3DF5 /* ViewController.h */,
+				048371A41D77EFB7003D3DF5 /* ViewController.m */,
+				048371A61D77EFB7003D3DF5 /* Main.storyboard */,
+				048371A91D77EFB7003D3DF5 /* Assets.xcassets */,
+				048371AB1D77EFB7003D3DF5 /* LaunchScreen.storyboard */,
+				048371AE1D77EFB7003D3DF5 /* Info.plist */,
+				0483719D1D77EFB7003D3DF5 /* Supporting Files */,
+				048371D31D77F3EB003D3DF5 /* GETUMENG.h */,
+				048371D41D77F3EB003D3DF5 /* GETUMENG.m */,
+			);
+			path = "获取OpenUDID";
+			sourceTree = "<group>";
+		};
+		0483719D1D77EFB7003D3DF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0483719E1D77EFB7003D3DF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048371B61D77EFB7003D3DF5 /* 获取OpenUDIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				048371B71D77EFB7003D3DF5 /* __OpenUDIDTests.m */,
+				048371B91D77EFB7003D3DF5 /* Info.plist */,
+			);
+			path = "获取OpenUDIDTests";
+			sourceTree = "<group>";
+		};
+		048371C11D77EFB7003D3DF5 /* 获取OpenUDIDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				048371C21D77EFB7003D3DF5 /* __OpenUDIDUITests.m */,
+				048371C41D77EFB7003D3DF5 /* Info.plist */,
+			);
+			path = "获取OpenUDIDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048371991D77EFB7003D3DF5 /* 获取OpenUDID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048371C71D77EFB7003D3DF5 /* Build configuration list for PBXNativeTarget "获取OpenUDID" */;
+			buildPhases = (
+				048371961D77EFB7003D3DF5 /* Sources */,
+				048371971D77EFB7003D3DF5 /* Frameworks */,
+				048371981D77EFB7003D3DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "获取OpenUDID";
+			productName = "获取OpenUDID";
+			productReference = 0483719A1D77EFB7003D3DF5 /* 获取OpenUDID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048371B21D77EFB7003D3DF5 /* 获取OpenUDIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048371CA1D77EFB7003D3DF5 /* Build configuration list for PBXNativeTarget "获取OpenUDIDTests" */;
+			buildPhases = (
+				048371AF1D77EFB7003D3DF5 /* Sources */,
+				048371B01D77EFB7003D3DF5 /* Frameworks */,
+				048371B11D77EFB7003D3DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048371B51D77EFB7003D3DF5 /* PBXTargetDependency */,
+			);
+			name = "获取OpenUDIDTests";
+			productName = "获取OpenUDIDTests";
+			productReference = 048371B31D77EFB7003D3DF5 /* 获取OpenUDIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048371BD1D77EFB7003D3DF5 /* 获取OpenUDIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048371CD1D77EFB7003D3DF5 /* Build configuration list for PBXNativeTarget "获取OpenUDIDUITests" */;
+			buildPhases = (
+				048371BA1D77EFB7003D3DF5 /* Sources */,
+				048371BB1D77EFB7003D3DF5 /* Frameworks */,
+				048371BC1D77EFB7003D3DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048371C01D77EFB7003D3DF5 /* PBXTargetDependency */,
+			);
+			name = "获取OpenUDIDUITests";
+			productName = "获取OpenUDIDUITests";
+			productReference = 048371BE1D77EFB7003D3DF5 /* 获取OpenUDIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048371921D77EFB7003D3DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cnlod;
+				TargetAttributes = {
+					048371991D77EFB7003D3DF5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					048371B21D77EFB7003D3DF5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 048371991D77EFB7003D3DF5;
+					};
+					048371BD1D77EFB7003D3DF5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 048371991D77EFB7003D3DF5;
+					};
+				};
+			};
+			buildConfigurationList = 048371951D77EFB7003D3DF5 /* Build configuration list for PBXProject "获取OpenUDID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048371911D77EFB7003D3DF5;
+			productRefGroup = 0483719B1D77EFB7003D3DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048371991D77EFB7003D3DF5 /* 获取OpenUDID */,
+				048371B21D77EFB7003D3DF5 /* 获取OpenUDIDTests */,
+				048371BD1D77EFB7003D3DF5 /* 获取OpenUDIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048371981D77EFB7003D3DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048371AD1D77EFB7003D3DF5 /* LaunchScreen.storyboard in Resources */,
+				048371AA1D77EFB7003D3DF5 /* Assets.xcassets in Resources */,
+				048371A81D77EFB7003D3DF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048371B11D77EFB7003D3DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048371BC1D77EFB7003D3DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048371961D77EFB7003D3DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048371A51D77EFB7003D3DF5 /* ViewController.m in Sources */,
+				048371D51D77F3EB003D3DF5 /* GETUMENG.m in Sources */,
+				048371D21D77EFC5003D3DF5 /* OpenUDID.m in Sources */,
+				048371A21D77EFB7003D3DF5 /* AppDelegate.m in Sources */,
+				0483719F1D77EFB7003D3DF5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048371AF1D77EFB7003D3DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048371B81D77EFB7003D3DF5 /* __OpenUDIDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048371BA1D77EFB7003D3DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048371C31D77EFB7003D3DF5 /* __OpenUDIDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048371B51D77EFB7003D3DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048371991D77EFB7003D3DF5 /* 获取OpenUDID */;
+			targetProxy = 048371B41D77EFB7003D3DF5 /* PBXContainerItemProxy */;
+		};
+		048371C01D77EFB7003D3DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048371991D77EFB7003D3DF5 /* 获取OpenUDID */;
+			targetProxy = 048371BF1D77EFB7003D3DF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048371A61D77EFB7003D3DF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048371A71D77EFB7003D3DF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048371AB1D77EFB7003D3DF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048371AC1D77EFB7003D3DF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048371C51D77EFB7003D3DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		048371C61D77EFB7003D3DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048371C81D77EFB7003D3DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "获取OpenUDID/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.cnlod.--OpenUDID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		048371C91D77EFB7003D3DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "获取OpenUDID/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.cnlod.--OpenUDID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		048371CB1D77EFB7003D3DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "获取OpenUDIDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.cnlod.--OpenUDIDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/获取OpenUDID.app/获取OpenUDID";
+			};
+			name = Debug;
+		};
+		048371CC1D77EFB7003D3DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "获取OpenUDIDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.cnlod.--OpenUDIDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/获取OpenUDID.app/获取OpenUDID";
+			};
+			name = Release;
+		};
+		048371CE1D77EFB7003D3DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "获取OpenUDIDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.cnlod.--OpenUDIDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "获取OpenUDID";
+			};
+			name = Debug;
+		};
+		048371CF1D77EFB7003D3DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "获取OpenUDIDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.cnlod.--OpenUDIDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "获取OpenUDID";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048371951D77EFB7003D3DF5 /* Build configuration list for PBXProject "获取OpenUDID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048371C51D77EFB7003D3DF5 /* Debug */,
+				048371C61D77EFB7003D3DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048371C71D77EFB7003D3DF5 /* Build configuration list for PBXNativeTarget "获取OpenUDID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048371C81D77EFB7003D3DF5 /* Debug */,
+				048371C91D77EFB7003D3DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		048371CA1D77EFB7003D3DF5 /* Build configuration list for PBXNativeTarget "获取OpenUDIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048371CB1D77EFB7003D3DF5 /* Debug */,
+				048371CC1D77EFB7003D3DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		048371CD1D77EFB7003D3DF5 /* Build configuration list for PBXNativeTarget "获取OpenUDIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048371CE1D77EFB7003D3DF5 /* Debug */,
+				048371CF1D77EFB7003D3DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048371921D77EFB7003D3DF5 /* Project object */;
+}
